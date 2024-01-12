@@ -1,0 +1,287 @@
+<html>
+   <head>
+    <link rel="stylesheet" href="boutique.css">
+    <script src="https://unpkg.com/gsap@3.9.0/dist/gsap.min.js"></script>
+   </head>
+  <body>
+ 
+    <script>
+      gsap.from('h2', { duration: 5, y: 50, opacity: 0, ease: 'power2.out' });
+    </script>
+    
+   <nav class="nav">
+            
+    <ul class="nav-list">
+        <li><a  href="index.html">Accueil</a></li>
+
+        <li><a href="boutike.html">Boutique</a></li>
+   
+      <li><h2>Book📖Bound</h2></li>
+     
+      <li><a href="Service.html">A propos</a></li>
+    
+        <li><a href="inscription.html">Inscription</a></li>
+    </ul>
+   
+    </nav>
+  
+
+    <div>
+    
+
+   <label for="searchInput"></label>
+
+   <input type="search" id="search" name="search" placeholder="cherher (non, auteur ...)" size="170px" style="padding-top:5px ; padding-bottom: 5px; "><br>
+  
+   <h2  style="font-size: 30px ;margin-top: 70px; "><span style="color:rgb(83, 175, 83)">Langue</span> Disponible</h2>
+   <hr>
+   <box class="box1">
+   
+    <div id="pay1" style="background-color: rgb(248, 248, 231); width: 250; height: 275; border-radius: 40px; margin-top: 30px;">
+    <p id="para2"><b>Arabe</b></p>
+    <a href="inscription.html"><img id="pic" src="maroc.jpg" height="180px" width="150px" 
+    onMouseOver="document.images[0].width=180;
+    document.images[0].height=200;"
+    onMouseOut="document.images[0].width=150;
+    document.images[0].height=180;" ></a>
+    </a>
+     </div>
+   
+    <div id="pay2" style="background-color:rgb(248, 248, 231); width: 250; height: 275; border-radius: 40px; margin-top: 30px"  >
+    <p id="para2"><b>Anglais</b></p>
+    <a href="inscription.html"><img id="pic" src="britich.jpg" height="180px" width="150px"
+    onMouseOver="document.images[1].width=180;
+    document.images[1].height=200;"
+    onMouseOut="document.images[1].width=150;
+    document.images[1].height=180;"  ></a>
+    </div>
+   
+    <div id="pay3" style="background-color:rgb(248, 248, 231); width: 250; height: 275;border-radius: 40px; margin-top: 30px">
+    <p id="para2"><b>Français</b></p>
+    <a href="inscription.html"><img id="pic" src="france.jpg" height="180px" width="150px"
+    onMouseOver="document.images[2].width=180;
+    document.images[2].height=200;"
+    onMouseOut="document.images[2].width=150;
+    document.images[2].height=180;" ></a>
+    </div>
+   
+    <div id="pay4" style="background-color:rgb(248, 248, 231);width: 250; height: 275; border-radius: 40px; margin-top: 30px">
+    <p id="para2" ><b>Ispagnol</b></p>
+    <a href="inscription.html"><img id="pic" src="ispan.jpg" height="180px" width="150px"
+    onMouseOver="document.images[3].width=180;
+    document.images[3].height=200;"
+    onMouseOut="document.images[3].width=150;
+    document.images[3].height=180;" ></a>
+    </div>
+   
+   
+   </box>
+   <box class="box2">
+   
+    <div id="pay1" style="background-color: rgb(248, 248, 231); width: 250; height: 275; border-radius: 40px; margin-top: 30px;">
+    <p id="para2"><b>Allemand</b></p>
+    <a href="inscription.html"> <img id="pic" src="almane.jpg" height="180px" width="150px" 
+    onMouseOver="document.images[4].width=180;
+    document.images[4].height=200;"
+    onMouseOut="document.images[4].width=150;
+    document.images[4].height=180;" ></a>
+     </div>
+   
+    <div id="pay2" style="background-color: rgb(248, 248, 231); width: 250; height: 275; border-radius: 40px; margin-top: 30px"  >
+    <p id="para2"><b>Chinois</b></p>
+    <a href="inscription.html"> <img id="pic" src="chni.jpg" height="180px" width="150px"
+    onMouseOver="document.images[5].width=180;
+    document.images[5].height=200;"
+    onMouseOut="document.images[5].width=150;
+    document.images[5].height=180;"  ></a>
+    </div>
+   
+    <div id="pay3" style="background-color: rgb(248, 248, 231); width: 250; height: 275;border-radius: 40px; margin-top: 30px">
+    <p id="para2"><b>Italien</b></p>
+    <a href="inscription.html"><img id="pic" src="italia.jpg" height="180px" width="150px"
+    onMouseOver="document.images[6].width=180;
+    document.images[6].height=200;"
+    onMouseOut="document.images[6].width=150;
+    document.images[6].height=180;" ></a>
+    </div>
+   
+    <div id="pay4" style="background-color: rgb(248, 248, 231);width: 250; height: 275; border-radius: 40px; margin-top: 30px">
+    <p id="para2" ><b>Turc</b></p>
+    <a href="inscription.html"><img id="pic" src="turkie.jpg" height="180px" width="150px"
+    onMouseOver="document.images[7].width=180;
+    document.images[7].height=200;"
+    onMouseOut="document.images[7].width=150;
+    document.images[7].height=180;" ></a>
+    </div>
+   
+   </box>
+   </div>
+   <div">
+    <div id="pay4" style="background-color: rgb(248, 248, 231);width: 250; height: 275; border-radius: 40px; margin-top: 30px; margin-left: 80px;">
+    <p id="para2" ><b>Autre</b></p>
+    <a href="inscription.html"><img id="pic" src="autre.jpg" height="180px" width="150px"
+    onMouseOver="document.images[8].width=180;
+    document.images[8].height=200;"
+    onMouseOut="document.images[8].width=150;
+    document.images[8].height=180;" ></a>
+   </div>
+
+
+<h2  style="font-size: 30px ;margin-top: 150px; "><span style="color:rgb(83, 175, 83)">Dernières</span> arrivées</h2>
+<hr>
+
+
+<div class="box3">
+
+<div class="div1">
+    <img id="der" src="christmas.jpg" height="300px" width="250px"
+   >
+   
+    <p >
+     <h3>The Young Oxford Book of Christmas Poems</h3>
+     <b>Pary Michael Harrison</b><i style="color: gray;"> 25.00$</i></p>
+</div>
+
+<div class="div1">
+    <img id="der" src="ready.jpg" height="300px" width="250px">
+   
+    <p >
+     <h3>Ready Steady Squirrel</h3>
+     <b >Par Nicola Kinnear</b><i style="color: gray;"> 18.00$</i> </p>
+    
+</div>
+
+<div class="div1">
+  <img id="der" src="house.jpg" height="300px" width="250px">
+ 
+  <p >
+   <h3>The House At The End Of The Moor</h3>
+   <b  >Par Michelle Griep</b><i style="color: gray;"> 10.00$</i></p>
+   
+</div>
+
+<div class="div1">
+  <img id="der" src="most.jpg" height="300px" width="250px">
+ 
+  <p >
+   <h3>The Most Wonderful Gift In The World</h3>
+   <b>Par Mark Sperring</b> <i style="color: gray;">20.00$ </i></p>
+</div>
+
+
+
+</div>
+
+<h2  style="font-size: 30px ;margin-top:  70px; "><span style="color:rgb(83, 175, 83)">Coups</span> De Cours</h2>
+<hr>
+
+<div class="box3">
+
+  <div class="div1">
+      <img id="der" src="paris.jpg" height="300px" width="250px">
+      
+      <p >
+        
+       <h3> L'amie Secrete De La Tour Eiffel</h3>
+       <b>Par Zosia Dzierzawska</b><i style="color: gray;"> 25.00$</i> 
+       
+       </p>
+  </div>
+  
+  <div class="div1">
+      <img id="der" src="love.jpg" height="300px" width="250px">
+     
+      <p >
+       <h3>Aiming For Love</h3>
+       <b >Par Mary Connealy</b><i style="color: gray;"> 18.00$</i> </p>
+       
+      
+  </div>
+ 
+  <div class="div1">
+    <img id="der" src="reve.jpg" height="300px" width="250px">
+   
+    <p >
+     <h3>Le rêve De Toinnet</h3>
+     <b  >Par Mireille Pluchard</b><i style="color: gray;"> 10.00$ </i></p>
+     
+     
+  </div>
+  
+  <div class="div1">
+    <img id="der" src="im3.jpg" height="300px" width="250px">
+   
+    <p >
+     <h3>The Book Thief</h3>
+     <b>Par Mrkus Zusak</b> <i style="color: gray;">20.00$ </i></p>
+    
+  </div>
+ 
+  </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="div7" style="background-color: #f9f7f7; height: 250px; width: 1455px;">
+  <p style="padding-left: 50px; padding-top: 50px; color: rgb(143, 143, 143);"> Notre email zineb.ouaziz@um5r.ac.ma</p>
+  <p style="padding-left: 1120px; color: rgb(143, 143, 143);">Ouvert du mardi au samedi - de 10h à 19h</p>
+  <br>
+  <br>
+  
+  <br>
+  <hr>
+  <p style="padding-left: 1120px; color: rgb(143, 143, 143);"> ©2024 The Book📖Bound</p> 
+  <p style="font-size: 25px; text-align: center; margin-top: -30px;">Par Zineb Ouaziz</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+

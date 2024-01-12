@@ -1,0 +1,165 @@
+
+body{
+    background-color: rgb(248, 248, 231);
+}
+
+/*navbar*/
+
+nav{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px;
+    margin-top:0px;
+    text-shadow: 2px 4px 8px gray;
+    font-size: larger;
+    position: absolute;
+    top:-40;
+    
+    
+ }
+  ul{
+   
+    list-style-type: none;
+    padding-top:0px;
+    margin-left: 380px;
+   margin-bottom: 10;
+    overflow: hidden;
+    
+    
+   
+  }
+ li  {
+    display: inline-block ; 
+    color: rgb(192, 54, 54);
+    text-align: center;
+    padding: 14px 16px; 
+    text-decoration: none;
+    text-shadow: 2px 4px 8px wheat;
+    
+  
+   
+ }
+ nav :hover {
+    
+    color: rgb(197, 20, 20);
+    
+}
+h2{        
+    color: rgb(43, 43, 44);
+    font-size: 40px;
+    text-shadow: 2px 4px 8px wheat;
+    font-family: 'Italianno', cursive;
+
+}
+a{
+    text-decoration: none;
+    color:rgb(43, 43, 44); 
+    
+    
+}
+
+.titre{
+    text-align: center;
+}
+
+/*search*/
+#search{
+    margin-top: 170px;
+    margin-left: 50px;
+    
+    
+
+}
+/*Les langues*/
+#para2{
+    font-size: 20px;
+    font-family: 'Italianno', cursive;
+    font-style: italic;
+}
+
+#pic{
+    border: 1px solid rgb(246, 241, 241);
+    box-shadow: 2px 4px 8px rgb(77, 76, 76);
+    text-align: center;
+    padding: 5px;
+    border-radius: 80%;
+    padding-left: 10px;
+    padding-bottom: 10px;
+
+}
+.box1{
+    display: flex;
+    justify-content: space-evenly;
+   margin-top: 10px;
+   padding: 14px 16px; 
+   text-shadow:2px 4px 8px rgb(75, 74, 74);
+
+    }
+.box2{
+    display: flex;
+    justify-content: space-evenly;
+   margin-top: 20px;
+   margin-top: 10px;
+   padding: 30px 30px; 
+   text-shadow:2px 4px 8px rgb(75, 74, 74);
+}
+img{
+    cursor: pointer;
+    
+}
+
+/* derniere arrive*/
+
+
+.div1{
+    background-color: rgb(252, 249, 249);
+   width: 250px;
+   height: 420px;
+    margin-top: 30px;
+    padding: 5px;
+    border: 1px solid rgb(246, 241, 241);
+    box-shadow: 2px 4px 8px rgb(185, 184, 184);
+    text-align: center;
+    
+    
+}
+#der{
+   
+    border-radius: 10px;
+    box-shadow: 0 0.5rem 1.5rem rgb(53, 53, 53);
+    
+}
+.div1:hover{
+    transform: scale(1);
+    margin: 20px;
+}
+
+
+
+.div3{
+    background-color: rgb(224, 221, 221);
+    height: 300px;
+    margin-top: 100px;
+}
+
+
+.box3{
+    display: flex;
+    justify-content: space-evenly;
+   margin-top: 20px;
+   margin-top: 10px;
+   padding: 30px 30px; 
+}
+
+
+#mon{
+    border: 1px solid rgb(11, 10, 10);
+  background-color: #fbfcfa;
+  height: 100px;
+  width: 1430px;
+  padding-left: 30px;
+  padding-top: 20px;
+
+  }
+  

@@ -1,0 +1,161 @@
+body{
+    background-color: rgb(248, 248, 231);
+}
+
+.div1{
+    background-image: url(im2.webp);
+    height: 500px;
+    width: 1250px;
+    background-size:cover;
+   margin-left: 80px;
+   margin-top: 80px ;
+
+  text-align: center;
+   padding-top: 70px;
+   padding-bottom: 25px;
+   padding-right: 20px;
+   
+ }
+/*navbar*/
+ nav{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px;
+    margin-top:0px;
+    text-shadow: 2px 4px 8px gray;
+    font-size: larger;
+    
+   
+    
+ }
+  ul{
+    list-style-type: none;
+    padding: 0px;
+    margin-left: 400px;
+    margin-top: 75px ;
+    overflow: hidden;
+    position: fixed;
+   
+   
+  }
+ li  {
+    display: inline-block ; 
+    color: rgb(192, 54, 54);
+    text-align: center;
+    padding: 14px 16px; 
+    text-decoration: none;
+    text-shadow: 2px 4px 8px wheat;
+    
+  
+   
+ }
+ nav :hover {
+    
+    color: rgb(197, 20, 20);
+    
+}
+h2{        
+    color: rgb(43, 43, 44);
+    font-size: 40px;
+    text-shadow: 2px 4px 8px wheat;
+    font-family: 'Italianno', cursive;
+
+}
+a{
+    text-decoration: none;
+    color:rgb(43, 43, 44); 
+    
+    
+}
+
+.titre{
+    text-align: center;
+}
+
+.sp2{
+    color: rgb(43, 43, 44);
+    font-size: 50px;
+    text-shadow: 2px 4px 8px wheat;
+    
+}
+.sp3{
+    font-size: 20px;
+  font-family: 'Italianno', cursive;
+}
+
+.sp1{
+  font-size: 20px;
+  font-family: 'Italianno', cursive;
+}
+.p2{
+  
+   padding-top: 70px;
+
+}
+.im1{
+    
+    margin-left: 90px;
+    margin-top: 40px;
+    border-radius:3000px;
+
+   
+}
+/*2eme page*/
+.div2{
+    background-color:rgb(248, 248, 231);
+    height: 300px;
+    width: 400;
+    margin-top: 150px;
+    margin-left: 300px;
+    text-align: center;
+    margin-bottom: 100px;
+    
+}
+ h3{font-size: 20px;
+   color: rgb(53, 184, 2);
+   font-family: 'Italianno', cursive;;
+    }
+    .image-box{
+        border: 1px solid rgb(246, 241, 241);
+        box-shadow: 2px 4px 8px rgb(160, 160, 160);
+        text-align: center;
+        padding: 5px;
+        height: 356px;
+        width: 200px;
+    
+    
+    }
+    #im{
+        border-radius: 10px;
+    box-shadow: 0 1rem 2rem rgb(53, 53, 53);
+   
+    }
+   p{
+    font-family: 'Italianno', cursive;;
+    
+   }
+  
+   
+
+   #mon{
+    border: 1px solid rgb(11, 10, 10);
+  background-color: #fbfcfa;
+  height: 100px;
+  width: 1430px;
+  padding-left: 30px;
+  padding-top: 20px;
+
+  }
+.from-contact{
+    background-color:#fbfcfa;
+    height: 400px;
+    width: 300px;
+}
+
+
+.swiper {
+    width: 600px;
+    height: 300px;
+   
+  }
